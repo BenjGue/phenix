@@ -9,9 +9,9 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import org.springframework.web.servlet.view.JstlView;
 
-@EnableWebMvc //mvc:annotation-driven
+@EnableWebMvc 
 @Configuration
-@ComponentScan({ "com.xaviervins.phenix" })
+@ComponentScan(basePackages = "com.xaviervins.phenix")
 public class SpringWebConfiguration extends WebMvcConfigurerAdapter {
 
 	@Override
@@ -22,9 +22,9 @@ public class SpringWebConfiguration extends WebMvcConfigurerAdapter {
 	@Bean
 	public InternalResourceViewResolver viewResolver() {
 		InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
-		viewResolver.setViewClass(JstlView.class);
+//		viewResolver.setViewClass(JstlView.class);
 		viewResolver.setPrefix("/WEB-INF/pages/");
-		viewResolver.setSuffix(".jsp");
+		viewResolver.setSuffix(".html");
 		return viewResolver;
 	}
 

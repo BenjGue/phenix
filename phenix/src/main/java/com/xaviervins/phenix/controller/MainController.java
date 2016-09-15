@@ -10,7 +10,7 @@ public class MainController {
 
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public ModelAndView getdata() {
-		
+		System.out.println("Je passe la");
 		return new ModelAndView("index");
 
 	}
