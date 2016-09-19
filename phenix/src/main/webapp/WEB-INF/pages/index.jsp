@@ -69,9 +69,9 @@
 			</div>
 		</section>
 	
-		<!-- <section class="menu">
+		<section class="menu">
 			<div class="container-fluid">
-				<div class="row cover" style="background-image:url(./resources/images/bouteilles-vins.jpg)"></div>
+				<div class="row cover" style="background-image:url(./resources/images/bouteilles-vin.jpg)"></div>
 			</div>
 			<div class="container">
 				<div class="row">
@@ -130,7 +130,7 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> <!--
 	
 		<section class="bg-pattern">
 			<div class="container">

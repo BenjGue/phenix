@@ -22,9 +22,4 @@ public class ServletInitializer extends AbstractAnnotationConfigDispatcherServle
 		return new Class[] { SecurityConfiguration.class };
 	}
 
-	@Override
-	public void customizeRegistration(ServletRegistration.Dynamic registration) {
-		registration.setInitParameter("throwExceptionIfNoHandlerFound", "true");
-	}
-
 }

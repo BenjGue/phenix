@@ -13,7 +13,6 @@ public class AdviceController {
 	@ExceptionHandler(NoHandlerFoundException.class)
 	public ModelAndView handleError404(HttpServletRequest request, Exception e)   {
 		ModelAndView mav = new ModelAndView("404");
-		mav.addObject("exception", e);  
 		return mav;
 	}
 }
