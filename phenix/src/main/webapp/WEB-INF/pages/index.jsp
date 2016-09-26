@@ -9,14 +9,14 @@
 		<section>
 	
 			<div class="swiper-container">
-				<div class="parallax-bg" style="background-image:url(./resources/images/fu-chene.jpg)" data-swiper-parallax="-15%"></div>
+				<div class="parallax-bg" style="background-image:url(<c:url value='/resources/images/fu-chene.jpg'/>)" data-swiper-parallax="-15%"></div>
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
 						<div class="swiper-caption">
-							<div class="title" data-swiper-parallax="-100" data-animation="fadeInDownBig">Zupa - Responsive Template</div>
-							<div class="subtitle" data-swiper-parallax="-200" data-animation="fadeIn">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+							<div class="title" data-swiper-parallax="-100" data-animation="fadeInDownBig">Notre nouveau vin</div>
+							<div class="subtitle" data-swiper-parallax="-200" data-animation="fadeIn">Rouge</div>
 							<div class="text" data-swiper-parallax="-300" data-animation="fadeInUpBig">
-								<a href="card.html" class="btn btn-custom btn-lg">read more</a>
+								<a href="card.html" class="btn btn-custom btn-lg">En savoir plus</a>
 							</div>
 						</div>
 					</div>
@@ -56,7 +56,7 @@
 				</div>
 				<div class="row">
 					<div class="col-sm-12 col-md-6 section-content animatedParent animateOnce">
-						<img src="./resources/images/XV-1.jpg" class="img-responsive  animated fadeIn" alt="">
+						<img src="<c:url value='resources/images/XV-1.jpg'/>" class="img-responsive  animated fadeIn" alt="">
 					</div>
 					<div class="col-sm-12 col-md-6 section-content">
 						<h3>Mauris quis eros tortor</h3>
@@ -71,61 +71,62 @@
 	
 		<section class="menu">
 			<div class="container-fluid">
-				<div class="row cover" style="background-image:url(./resources/images/bouteilles-vin.jpg)"></div>
+				<div class="row cover" style="background-image:url(<c:url value='/resources/images/bouteilles-vin.jpg'/>)"></div>
 			</div>
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 col-lg-10 col-lg-offset-1 menu-card page-indent">
-						<h2 class="decoration-stars">Today's specials</h2>
+						<h2 class="decoration-stars">La sélection de Xavier</h2>
 						<ul>
 							<li>
 								<div>
-									<p class="name"><span>Vivamus quis mattis risus</span>
+									<p class="name"><span>Blanc rhone</span>
 									</p>
-									<p class="price">$9.99</p>
+									<p class="price">9,99€</p>
 								</div>
-								<p class="mute">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								<p class="mute">xxxxxxx.</p>
 							</li>
 							<li>
 								<div>
-									<p class="name"><span>Aenean quam lectus</span>
+									<p class="name"><span>Blanc rhone</span>
 									</p>
-									<p class="price">$4.99</p>
+									<p class="price">9,99€</p>
 								</div>
-								<p class="mute">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								<p class="mute">xxxxxxx.</p>
 							</li>
 							<li>
 								<div>
-									<p class="name"><span>Convallis in sollicitudin</span>
+									<p class="name"><span>Blanc rhone</span>
 									</p>
-									<p class="price">$9.99</p>
+									<p class="price">9,99€</p>
 								</div>
-								<p class="mute">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								<p class="mute">xxxxxxx.</p>
 							</li>
 							<li>
 								<div>
-									<p class="name"><span>Maecenas non tellus</span>
+									<p class="name"><span>Blanc rhone</span>
 									</p>
-									<p class="price">$19.99</p>
+									<p class="price">9,99€</p>
 								</div>
-								<p class="mute">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								<p class="mute">xxxxxxx.</p>
 							</li>
 							<li>
 								<div>
-									<p class="name"><span>Quisque quis molestie elit</span>
+									<p class="name"><span>Blanc rhone</span>
 									</p>
-									<p class="price">$12.99</p>
+									<p class="price">9,99€</p>
 								</div>
-								<p class="mute">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								<p class="mute">xxxxxxx.</p>
 							</li>
 							<li>
 								<div>
-									<p class="name"><span>Proin ante purus, viverra sit amet cursus nec</span>
+									<p class="name"><span>Châteauneuf du Pape blanc Cuvée Anonyme 2014 </span>
 									</p>
-									<p class="price">$12.99</p>
+									<p class="price">x,xx€</p>
 								</div>
-								<p class="mute">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								<p class="mute">Assemblage de Roussanne, de Grenache et de Clairette. Chargé d'arômes de pommes poêlées, d'agrumes épicées, de pain grillé et de brioche, il est mi-corsé, présente une acidité vive et un style équilibré et texturé qui vous appelle à vous resservir.</p>
 							</li>
+							
 						</ul>
 					</div>
 				</div>
@@ -209,7 +210,7 @@
 						</p>
 					</div>
 					<div class="col-sm-12 col-md-6 section-content">
-						<img src="./resources/images/xv-camion.jpg" class="img-responsive" alt="">
+						<img src="<c:url value='/resources/images/xv-camion.jpg'/>" class="img-responsive" alt="">
 					</div>
 				</div>
 	
